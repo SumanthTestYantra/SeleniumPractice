@@ -15,5 +15,6 @@ public static void main(String[] args) {
 	WebElement clickAlert=driver.findElement(By.id("alert1"));
 	Actions action=new Actions(driver);
 	action.click(clickAlert).perform();
+	driver.quit();
 }
 }
